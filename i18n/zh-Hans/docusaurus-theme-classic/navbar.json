@@ -15,6 +15,10 @@
     "message": "文章",
     "description": "Navbar item with label Posts"
   },
+  "item.label.Loggers": {
+    "message": "记录器",
+    "description": "Navbar item with label Loggers"
+  },
   "item.label.EOL": {
     "message": "生命周期倒计时",
     "description": "Navbar item with label EOL"
