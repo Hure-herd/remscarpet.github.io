@@ -95,7 +95,12 @@ const config = {
             position: 'left',
           },
           {
-            to: 'eol',
+            to: 'Eol',
+            position: 'left',
+            label: 'Loggers'
+          },
+          {
+            to: 'Eol',
             position: 'left',
             label: 'EOL'
           },{
