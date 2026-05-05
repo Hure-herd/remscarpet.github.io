@@ -174,6 +174,13 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 * 开启方法: `/carpet SignCommand true`
 * 分类: `REMS` , `Survival`
 
+## 告示牌允许指令列表(SignAllowedCommands)
+设置在告示牌上允许使用的指令的列表，使用逗号分隔，例如: say,tick,player
+* 默认值: `false`
+* 可选参数: `false`, `say`, `player,tick`, `say,player,tick`
+* 开启方法: `/carpet SignCommand XXX`
+* 分类: `REMS` , `Survival`
+
 ## 末影珍珠加载(Enderpearlloadchunk)<sup>`MC < 1.21.2`</sup>
 这个末影珍珠加载是从1.21.2移植下来的。十分好用
 * 默认值: `false`
@@ -249,4 +256,59 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 * 开启方法: `/carpet durableItemShadow true`
 * 分类: `REMS` , `feature`
 
+## 引入高版本投掷物运动(IntroduceHighVersionThrowableEntityMovement)
+引入1.21.2+版本的投掷物运动逻辑
+* 默认值: `false`
+* 可选参数: `true`, `false`
+* 开启方法: `/carpet introduceHighVersionThrowableEntityMovement true`
+* 分类: `REMS` , `feature`
+
+## 无感珍珠加载(NoSensationPearlLoad)
+在大于300速度且第一次时会少量调用raycast，计算后保存，下一次调用时直接去除raycast
+* 默认值: `false`
+* 可选参数: `true`, `false`
+* 开启方法: `/carpet noSensationPearlLoad true`
+* 分类: `REMS` , `feature`
+
+## 禁用AI的实体类型(DisableAIEntitities)
+设置移除任意AI的实体列表，使用逗号分隔，例如: zombie,piglin
+* 默认值: `false`
+* 可选参数: `false`, `zombie`, `creeper`, `zombie,skeleton`
+* 开启方法: `/carpet disableAIEntitities XXX`
+* 分类: `REMS` , `feature`
+
+## 禁用AI的类别(DisableAiGoals)
+选择要删除的 AI 功能 如: move, attack, look
+* 默认值: `false`
+* 可选参数: `false`, `move`, `attack`, `move,attack,shoot`, `all`
+* 开启方法: `/carpet disableAiGoals XXX`
+* 分类: `REMS` , `feature`
+
+## 炽足兽去死(Stridergodie)
+让炽足兽在地狱170高以上无法生成
+* 默认值: `false`
+* 可选参数: `true`, `false`
+* 开启方法: `/carpet stridergodie true`
+* 分类: `REMS` , `Survival`
+
+## 清理假玩家网络队列(FlushFakePlayerNetworkQueue)
+每分钟清空假玩家底层EmbeddedChannel中积压的出站数据包以释放堆内存
+* 默认值: `false`
+* 可选参数: `true`, `false`
+* 开启方法: `/carpet flushFakePlayerNetworkQueue true`
+* 分类: `REMS` , `Bugfix`
+
+## 发射器可以发射矛(DispenserSpearCharge)
+发射器可以使用长矛攻击面前的实体
+* 默认值: `false`
+* 可选参数: `true`, `false`
+* 开启方法: `/carpet dispenserSpearCharge true`
+* 分类: `REMS` , `Experimental`
+
+## 引入绊线删除平台(AllowTripwirePlatformDeletion)
+允许玩家利用绊线的异常状态来中断末地黑曜石出生平台的生成，从而删除平台
+* 默认值: `false`
+* 可选参数: `true`, `false`
+* 开启方法: `/carpet allowTripwirePlatformDeletion true`
+* 分类: `REMS` , `feature`
 ---

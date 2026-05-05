@@ -191,6 +191,13 @@ The player right-clicks the sign to execute the command on the sign.The sign sta
 * Open Method: `/carpet SignCommand true`
 * Categories: `REMS` , `Survival`
 
+## SignAllowedCommands
+Set a list of allowed commands on the sign, separated by commas, for example: say, tick, player
+* Default Value: `false`
+* Optional Parameters:`false`, `say`, `player,tick`, `say,player,tick`
+* Open Method: `/carpet SignCommand XXX`
+* Categories: `REMS` , `Survival`
+
 ## Enderpearlloadchunk
 This ender pearl loading is ported from 1.21.2. Very useful.
 
@@ -270,4 +277,60 @@ The item Shadow do not disappear after restarting.
 * Open Method: `/carpet durableItemShadow true`
 * Categories: `REMS` , `feature`
 
+## IntroduceHighVersionThrowableEntityMovement
+Introducing projectile motion logic from version 1.21.2+.
+* Default Value: `false`
+* Optional Parameters: `true`, `false`
+* Open Method: `/carpet introduceHighVersionThrowableEntityMovement true`
+* Categories: `REMS` , `feature`
+
+## NoSensationPearlLoad
+When the speed is greater than 300 and it is the first time, a small number of raycast calls will be made. The calculations are saved and the stuttering is reduced on the next call.
+
+* Default Value: `false`
+* Optional Parameters: `true`, `false`
+* Open Method: `/carpet noSensationPearlLoad true`
+* Categories: `REMS` , `feature`
+
+## DisableAIEntitities
+Set a list of entities to remove from any AI, separated by commas, for example: zombie,piglin
+* Default Value: `false`
+* Optional Parameters: `false`, `zombie`, `creeper`, `zombie,skeleton`
+* Open Method: `/carpet disableAIEntitities XXX`
+* Categories: `REMS` , `feature`
+
+## DisableAiGoals
+Select the AI function you want to delete, such as: move, attack, look.
+* Default Value:`false`
+* Optional Parameters: `false`, `move`, `attack`, `move,attack,shoot`, `all`
+* Open Method: `/carpet disableAiGoals XXX`
+* Categories: `REMS` , `feature`
+
+## Stridergodie
+Strider cannot be generated in Hell difficulty above level 170.
+* Default Value: `false`
+* Optional Parameters: `true`, `false`
+* Open Method: `/carpet stridergodie true`
+* Categories: `REMS` , `Survival`
+
+## FlushFakePlayerNetworkQueue
+Every minute, the backlog of outbound packets in the underlying EmbeddedChannel of the fake player is cleared to free up heap memory.
+* Default Value: `false`
+* Optional Parameters: `true`, `false`
+* Open Method: `/carpet flushFakePlayerNetworkQueue true`
+* Categories: `REMS` , `Bugfix`
+
+## DispenserSpearCharge
+Dispensers can use spears to attack entities in front of them.
+* Default Value: `false`
+* Optional Parameters: `true`, `false`
+* Open Method: `/carpet dispenserSpearCharge true`
+* Categories: `REMS` , `Experimental`
+
+## AllowTripwirePlatformDeletion
+Players can use the tripwire's abnormal state to interrupt the spawn of the End Obsidian spawn platform, thereby deleting the platform.
+* Default Value: `false`
+* Optional Parameters: `true`, `false`
+* Open Method: `/carpet allowTripwirePlatformDeletion true`
+* Categories: `REMS` , `feature`
 ---
