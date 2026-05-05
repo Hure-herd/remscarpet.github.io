@@ -97,11 +97,6 @@ const config = {
           {
             to: 'Eol',
             position: 'left',
-            label: 'Loggers'
-          },
-          {
-            to: 'Eol',
-            position: 'left',
             label: 'EOL'
           },{
               type: "localeDropdown",
