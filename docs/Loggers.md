@@ -2,15 +2,14 @@
 
 ## Netherportal_POI_Display
 `/log displaypoi`  
-Displaying POI by rendering a purple glass on POI  
-![log_displaypoi-1](/img/loggers/log_displaypoi-1.png)
-![log_displaypoi-2](/img/loggers/log_displaypoi-2.png)
+Displaying POI by rendering a glass on POI  
+![log_poi](/img/loggers/log_poi.png)
 
 The left image shows the device not in operation, and the right image shows the device in operation.
 
 Attributes:
-- Default option: N/A
-- Suggested options: N/A
+- Default option: `portal`
+- Suggested options: `village`, `portal`, `bee_home`, `full`
 
 ## Check_chunkloading_Status
 `/log loadedChunks`  

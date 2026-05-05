@@ -2,15 +2,12 @@
 
 ## 地狱门POI
 `/log displaypoi`  
-通过在poi上渲染一个紫色玻璃来显示POI  
-![log_displaypoi-1](/img/loggers/log_displaypoi-1.png)
-![log_displaypoi-2](/img/loggers/log_displaypoi-2.png)
-
-左图为未开启状态，右图为开启状态
+通过在poi上渲染一个玻璃来显示POI  
+![log_poi](/img/loggers/log_poi.png)
 
 属性:
-- 默认选项: N/A
-- 参考选项: N/A
+- 默认选项: `portal`
+- 参考选项: `village`, `portal`, `bee_home`, `full`
 
 ## 查看区块加载情况
 `/log loadedChunks`  
