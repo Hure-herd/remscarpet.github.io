@@ -2,7 +2,7 @@
 
 ## 地狱门POI
 `/log displaypoi`  
-通过在poi上渲染一个紫色玻璃来显示POI
+通过在poi上渲染一个紫色玻璃来显示POI  
 ![log_displaypoi-1](/img/loggers/log_displaypoi-1.png)
 ![log_displaypoi-2](/img/loggers/log_displaypoi-2.png)
 
@@ -15,7 +15,7 @@
 ## 查看区块加载情况
 `/log loadedChunks`  
 一个 HUD 记录器
-显示整个游戏世界里指定/全部维度的区块加载情况
+显示整个游戏世界里指定/全部维度的区块加载情况  
 ![log_displaypoi-2](/img/loggers/log_loadChunks-zh.png)
 
 从左到右分别是:`全部世界`,`主世界`,`地狱`,`末地`  

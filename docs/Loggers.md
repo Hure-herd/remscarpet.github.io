@@ -2,7 +2,7 @@
 
 ## Netherportal_POI_Display
 `/log displaypoi`  
-Displaying POI by rendering a purple glass on POI
+Displaying POI by rendering a purple glass on POI  
 ![log_displaypoi-1](/img/loggers/log_displaypoi-1.png)
 ![log_displaypoi-2](/img/loggers/log_displaypoi-2.png)
 
@@ -14,6 +14,7 @@ Attributes:
 
 ## Check_chunkloading_Status
 `/log loadedChunks`  
+A HUD Logger Displays the chunk loading status of a specified/all dimensions within the entire game world.  
 ![log_displaypoi-2](/img/loggers/log_loadChunks-us.png)
 
 From left to right are::`All Worlds`,`Overworld`,`Nether`,`End`
