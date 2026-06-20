@@ -277,7 +277,7 @@ The item Shadow do not disappear after restarting.
 * Open Method: `/carpet durableItemShadow true`
 * Categories: `REMS` , `feature`
 
-## IntroduceHighVersionThrowableEntityMovement
+## IntroduceHighVersionThrowableEntityMovement<sup>`MC < 1.21.2`</sup>
 Introducing projectile motion logic from version 1.21.2+.
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
@@ -320,7 +320,7 @@ Every minute, the backlog of outbound packets in the underlying EmbeddedChannel 
 * Open Method: `/carpet flushFakePlayerNetworkQueue true`
 * Categories: `REMS` , `Bugfix`
 
-## DispenserSpearCharge
+## DispenserSpearCharge<sup>`MC >= 1.21.11`</sup>
 Dispensers can use spears to attack entities in front of them.
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
@@ -333,4 +333,11 @@ Players can use the tripwire's abnormal state to interrupt the spawn of the End 
 * Optional Parameters: `true`, `false`
 * Open Method: `/carpet allowTripwirePlatformDeletion true`
 * Categories: `REMS` , `feature`
+
+## CommandBlockWhitelist
+The command block whitelist can be enabled or disabled through the backend, preventing certain people with operation privileges from misusing command blocks.
+* Open Method: `/cbwhitelist open`
+* Close Method: `/cbwhitelist close`
+* How to add to the whitelist: `/cbwhitelist add XXX`
+* How to remove from the whitelist: `/cbwhitelist remove XXX`
 ---
