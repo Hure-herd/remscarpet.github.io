@@ -341,7 +341,7 @@ Prevents animals from spawning naturally during chunk generation.
 * Categories: `REMS` , `Feature`
 
 ## CommandpetOwnerTransfer
-Allows using /petTransfer <petUUID> <target> to transfer tamed pet ownership.
+Allows using `/petTransfer <petUUID> <target>` to transfer tamed pet ownership.
 * Default Value: `false`
 * Optional Parameters: `true`, `ops`, `false`
 * Categories: `REMS` , `Survival` , `Command`

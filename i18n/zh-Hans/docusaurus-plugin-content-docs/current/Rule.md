@@ -319,7 +319,7 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 * 分类: `REMS` , `Feature`
 
 ## 宠物主人转让(CommandpetOwnerTransfer)
-允许使用 /petTransfer <宠物UUID> <目标玩家> 命令将已驯服宠物转让给其他玩家。
+允许使用 `/petTransfer <宠物UUID> <目标玩家>` 命令将已驯服宠物转让给其他玩家。
 * 默认值: `false`
 * 可选参数: `true`, `ops`, `false`
 * 分类: `REMS` , `Survival` , `Command`
