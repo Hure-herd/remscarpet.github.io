@@ -50,7 +50,7 @@ const config = {
         language: ["en", "zh"],
         highlightSearchTermsOnTargetPage: false,
         explicitSearchResultPath: true,
-        ignoreCssSelectors: ["p", "li", "blockquote", "code"],
+        ignoreCssSelectors: ["p", "li", "blockquote", "code", "h3", "h4", "h5"],
       }),
     ],
   ],
