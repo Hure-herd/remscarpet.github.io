@@ -306,4 +306,22 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 * 可选参数: `true`, `false`
 * 分类: `REMS` , `Feature`
 
+## 创造模式背包满时禁止拾取(NoCreativePickupWhenFull)
+创造模式下若背包无空位且无法与已有物品堆叠，则不会拾起物品。
+* 默认值: `false`
+* 可选参数: `true`, `false`
+* 分类: `REMS` , `Feature` , `Survival`
+
+## 新区块不生成动物(NoAnimalGenerationInNewChunks)
+禁止在区块生成时自然生成动物（牛羊猪鸡等）。
+* 默认值: `false`
+* 可选参数: `true`, `false`
+* 分类: `REMS` , `Feature`
+
+## 宠物主人转让(CommandpetOwnerTransfer)
+允许使用 /petTransfer <宠物UUID> <目标玩家> 命令将已驯服宠物转让给其他玩家。
+* 默认值: `false`
+* 可选参数: `true`, `ops`, `false`
+* 分类: `REMS` , `Survival` , `Command`
+
 ---
