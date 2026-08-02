@@ -111,7 +111,12 @@ const config = {
             to: 'Eol',
             position: 'left',
             label: 'EOL'
-          },{
+          },
+          {
+            type: 'search',
+            position: 'right',
+          },
+          {
               type: "localeDropdown",
               position:"right",
           },
