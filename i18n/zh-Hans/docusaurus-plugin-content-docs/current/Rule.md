@@ -14,7 +14,6 @@ sidebar_position: 1
 #### 当有3X3的弱加载区块的时候，最中心的区块会变成强加载区块
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet pistonBlockChunkLoader ture`
 * 分类: `REMS` , `Survival`
 > 如果不想使用地狱门加载链的话，此规则可作为替代方案。
 
@@ -23,7 +22,6 @@ sidebar_position: 1
 
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet mergeTNTPro true`
 * 分类: `REMS`, `Feature`, `Survival`,`TNT`
 
 ## 末影珍珠加载(PearlTickets)<sup>`MC < 1.21.2`</sup>
@@ -32,7 +30,6 @@ sidebar_position: 1
 (Minecraft>=1.21.2时开启后，可以显著提升珍珠炮的性能)
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet pearlTickets true`
 * 分类: `REMS` , `Survival`
 
 **移植自：**
@@ -42,14 +39,12 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 在开启末影珍珠加载(PearlTickets)的时候，珍珠只会显示第一gt的位置，查看不到珍珠的真实位置和速度，开启这个后，会在公屏显示出来。
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet pearlPosVelocity true`
 * 分类: `REMS` , `Survival`
 
 ## 末地石农场(Endstonefram)
 你可以像1.16一样建造末地石农场，这个规则可以让他工作
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet endstonefram true`
 * 分类: `REMS` , `Experimental`
 
 ## 投掷物Raycast长度(ProjectileRaycastLength)
@@ -57,7 +52,6 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 这减少了快速移动的延迟。在1.12中该值为200。
 * 默认值: `0`
 * 可选参数: `0`, `200`
-* 开启方法: `/carpet ProjectileRaycastLength 200`
 * 分类: `REMS` , `Survival`
 
 **移植自：**[EpsilonSMP](https://github.com/EpsilonSMP/Epsilon-Carpet)
@@ -66,14 +60,12 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 控制声音抑制器的监听范围半径，可输入一个正整数，原版默认为16格，最大不能超过64
 * 默认值: `false`
 * 可选参数: `8`,`16`,`32`
-* 开启方法: `/carpet soundSuppressionRadius true`
 * 分类: `REMS` , `Feature`
 
 ## 放置声音抑制器命令开关(Commandsetnoisesuppressor)<sup>`MC > 1.19.4`</sup>
 启用/setnoisesuppressor命令来放置声音抑制器
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet commandsetnoisesuppressor true`
 * 分类: `REMS` , `CREATIVE`
 
 ## 比较器忽略来自下方的状态更新(ComparatorIgnoresStateUpdatesFromBelow)<sup>`MC >= 1.20.2`</sup>
@@ -81,7 +73,6 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 比较器会忽略来自下方的状态更新,意味着开启活板门不会破坏比较器
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet ComparatorIgnoresStateUpdatesFromBelow true`
 * 分类: `REMS` , `Feature`
 
 ## 珍珠超传(PortalPearlWarp)
@@ -96,21 +87,18 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 | 468743,468743 |   58585,58585      |
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet PortalPearlWarp true`
 * 分类: `REMS` , `Feature`
 
 ## 箱子矿车加载区块(ChestMinecartChunkLoader)
 箱子矿车可以强加载1x1的区块持续2s,当箱子矿车的名字是Load时生效。
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet chestMinecartChunkLoader true`
 * 分类: `REMS` , `Feature`
 
 ## 末地折跃门加载(EndGatewayChunkLoader)<sup>`MC < 1.21`</sup>
 当实体穿越末路之地折跃门时，目标区块会像下界传送门一样使目标区块获得3s的加载。
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet endGatewayChunkLoader true`
 * 分类: `REMS` , `Survival`
 
 ## 计划刻催熟植物(ScheduledRandomTickPlants)
@@ -118,7 +106,6 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 仙人掌、竹子、紫颂花、甘蔗、海带、缠怨藤、垂泪藤
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet scheduledRandomTickPlants true`
 * 分类: `REMS` , `Feature`,`Survival`
 
 
@@ -128,42 +115,36 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 在服务器当前维度没有玩家的300tick后，Minecraft会停止实体相关的更新，这条规则会绕过这个限制。
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet keepWorldTickUpdate true`
 * 分类: `REMS` , `Feature`
 
 ## 禁止蝙蝠生成(DisableBatCanSpawn)
 阻止蝙蝠自然生成
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet disableBatCanSpawn true`
 * 分类: `REMS` , `Feature`
 
 ## 仙人掌扳手音效(CactusWrenchSound)
 使用仙人掌扳手时播放 'BLOCK_DISPENSER_LAUNCH' 音效
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet cactusWrenchSound true`
 * 分类: `REMS` , `Survival` ,`Creative`
 
 ## 禁止传送门更新(DisablePortalUpdate)
 下界传送门方块收到方块更新后不会做出反应
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet disablePortalUpdate true`
 * 分类: `REMS` , `Survival` ,`Experimental`
 
 ## 重新引入拌线骗特性(StringDupeReintroduced)<sup>`MC > 1.21.2`</sup>
 重新引入拌线骗特性，可以通过此规则来继续使用刷线机
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet stringDupeReintroduced true`
 * 分类: `REMS` , `Survival` ,`Experimental`
 
 ## 共享打折(SharedVillagerDiscounts)
 玩家将僵尸村民治疗为村民后的获得的折扣将共享给所有玩家
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet sharedVillagerDiscounts true`
 * 分类: `REMS` , `Survival`,`Feature`
 
 ## 命令告示牌(SignCommand)
@@ -171,21 +152,18 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 在告示牌以/开头（只允许say tick和player）
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet SignCommand true`
 * 分类: `REMS` , `Survival`
 
 ## 告示牌允许指令列表(SignAllowedCommands)
 设置在告示牌上允许使用的指令的列表，使用逗号分隔，例如: say,tick,player
 * 默认值: `false`
 * 可选参数: `false`, `say`, `player,tick`, `say,player,tick`
-* 开启方法: `/carpet SignCommand XXX`
 * 分类: `REMS` , `Survival`
 
 ## 末影珍珠加载(Enderpearlloadchunk)<sup>`MC < 1.21.2`</sup>
 这个末影珍珠加载是从1.21.2移植下来的。十分好用
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet enderpearlloadchunk true`
 * 分类: `REMS` , `FEATURE`
 
 **移植自：**[PearlChunkLoading](https://github.com/Crystal0404/PearlChunkLoading)
@@ -194,7 +172,6 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 这个规则可以控制珍珠在大于20m/gt后多少gt被销毁
 * 默认值: `40`
 * 可选参数: `40`, `0`
-* 开启方法: `/carpet pearltime true`
 * 分类: `REMS` , `FEATURE`
 
 
@@ -202,7 +179,6 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 重新引入1.16.5物品栏之间交换的逻辑
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet itemShadowing true`
 * 分类: `REMS` , `Experimental`
 
 **移植自：**[CrystalCarpetAddition](https://github.com/Crystal0404/CrystalCarpetAddition)
@@ -211,63 +187,54 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 允许方块实体的保存和替换，用于制作CCE和IAE
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet blockentityreplacement true`
 * 分类: `REMS` , `ExperimentalL`
 
 ## 重载式刷铁机(Reloadrefreshirongolem)
 你可以像1.14一样在末地建造重载式刷铁机，这个规则可以让他工作
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet reloadrefreshirongolem true`
 * 分类: `REMS` , `survival`
 
 ## 恢复1.21.2-的投掷物移动顺序(Pre21ThrowableEntityMovement)<sup>`MC >= 1.21.2`</sup>
 恢复1.21.2-的投掷物移动顺序,你可以使用1.21.2-的珍珠炮
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet pre21ThrowableEntityMovement true`
 * 分类: `REMS` , `Feature`
 
 ## 修复珍珠加载(Fixedpearlloading)<sup>`MC >= 1.21.2`</sup>
 修复了在高速下，末影珍珠会因为无法加载当前区块而卸载
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet fixedpearlloading true`
 * 分类: `REMS` , `bugfix`
 
 ## 流商不消失(WanderingTraderNoDisappear)
 名字是Load的流浪商人不会消失
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet wanderingTraderNoDisappear true`
 * 分类: `REMS` , `feature`
 
 ## 珍珠不加载(Pearlnotloadingchunk)
 珍珠不加载任何区块
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet pearlnotloadingchunk true`
 * 分类: `REMS` , `feature`
 
 ## 持久物品分身(DurableItemShadow)
 重启后物品分身不消失
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet durableItemShadow true`
 * 分类: `REMS` , `feature`
 
 ## 引入高版本投掷物运动(IntroduceHighVersionThrowableEntityMovement)<sup>`MC < 1.21.2`</sup>
 引入1.21.2+版本的投掷物运动逻辑
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet introduceHighVersionThrowableEntityMovement true`
 * 分类: `REMS` , `feature`
 
 ## 无感珍珠加载(NoSensationPearlLoad)
 在大于300速度且第一次时会少量调用raycast，计算后保存，下一次调用时直接去除raycast
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet noSensationPearlLoad true`
 * 分类: `REMS` , `feature`
 
 ## 禁用AI的实体类型(DisableAIEntitities)
@@ -275,7 +242,6 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 禁用AI的类别类别详细请看DisableAiGoals
 * 默认值: `false`
 * 可选参数: `false`, `zombie`, `creeper`, `zombie,skeleton`
-* 开启方法: `/carpet disableAIEntitities XXX`
 * 分类: `REMS` , `feature`
 
 ## 禁用AI的类别(DisableAiGoals)
@@ -283,35 +249,30 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 使用命名牌命名为上方功能后可以删除单独实体的某个AI
 * 默认值: `false`
 * 可选参数: `false`, `move`, `attack`, `move,attack,look`, `breed,tempt,pickup,work`, `all`
-* 开启方法: `/carpet disableAiGoals XXX`
 * 分类: `REMS` , `feature`
 
 ## 炽足兽去死(Stridergodie)
 让炽足兽在地狱170高以上无法生成
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet stridergodie true`
 * 分类: `REMS` , `Survival`
 
 ## 清理假玩家网络队列(FlushFakePlayerNetworkQueue)
 每分钟清空假玩家底层EmbeddedChannel中积压的出站数据包以释放堆内存
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet flushFakePlayerNetworkQueue true`
 * 分类: `REMS` , `Bugfix`
 
 ## 发射器可以发射矛(DispenserSpearCharge)<sup>`MC >= 1.21.11`</sup>
 发射器可以使用长矛攻击面前的实体
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet dispenserSpearCharge true`
 * 分类: `REMS` , `Experimental`
 
 ## 引入绊线删除平台(AllowTripwirePlatformDeletion)
 允许玩家利用绊线的异常状态来中断末地黑曜石出生平台的生成，从而删除平台
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet allowTripwirePlatformDeletion true`
 * 分类: `REMS` , `feature`
 
 ## 命令方块白名单(CommandBlockWhitelist)
@@ -325,28 +286,24 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 重新引入20w45a修复的海豚携带物品穿越传送门时的物品复制。
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet reintroduceDolphinPortalItemDupe true`
 * 分类: `REMS` , `Feature`
 
 ## 易碎方块(FragileBlocks)
 "设置可以被快速破坏的方块列表，使用逗号分隔，例如: obsidian,vault"。
 * 默认值: `false`
 * 可选参数: `false`, `obsidian`, `obsidian,vault`...
-* 开启方法: `/carpet fragileBlocks XXX`
 * 分类: `REMS` , `Feature`
 
 ## 修复挖掘疲劳倍率(FixMiningFatigue)
 修复挖掘疲劳 III/IV 级的挖掘速度倍率：III 0.0027→0.027, IV 0.00081→0.0081。
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet fixMiningFatigue true`
 * 分类: `REMS` , `bugfix`
 
 ## 回退僵尸特性(RevertZombieFeatures)
 回退Mojang的两个僵尸更改：增援始终为普通僵尸（24w33a前行为），猪人不再生成金矛（1.21.11前行为）。
 * 默认值: `false`
 * 可选参数: `true`, `false`
-* 开启方法: `/carpet revertZombieFeatures true`
 * 分类: `REMS` , `Feature`
 
 ---

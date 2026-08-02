@@ -14,7 +14,6 @@ If enabled, when this piston/sticky piston head generates a piston head push/pul
 #### When there are 3X3 weak loading chunks, the central chunk will become a Active loading chunk
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet pistonBlockChunkLoader ture`
 * Categories: `REMS` , `Survival`
 
 >This rule can be used as an alternative if you do not want to use the Nether portal Load.
@@ -24,7 +23,6 @@ Merging a large amount of TNT to reduce the lag caused by entities and explosion
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet mergeTNTPro true`
 * Categories: `REMS`, `Feature`, `Survival`,`TNT`
 
 ## PearlTickets<sup>`MC < 1.21.2`</sup>
@@ -34,7 +32,6 @@ This mod has a significant performance improvement over the enderPearlChunkLoadi
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet pearlTickets true`
 * Categories: `REMS` , `Survival`
 
 **Ported from：**
@@ -44,14 +41,12 @@ SunnySlopes's [PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 Controls the monitoring radius of the sound suppressor. You can enter a positive integer. The default value in the original version is 16 grids.The maximum value cannot exceed 64.
 * Default Value:  `false`
 * Optional Parameters: `8`,`16`,`32`
-* Open Method: `/carpet soundSuppressionRadius true`
 * Categories: `REMS` , `Feature`
 
 ## Commandsetnoisesuppressor<sup>`MC > 1.19.4`</sup>
 Enables /setnoisesuppressor command to place a sound suppressor
 * Default Value:  `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet commandsetnoisesuppressor true`
 * Categories: `REMS` , `CREATIVE`
 
 ## ComparatorIgnoresStateUpdatesFromBelow<sup>`MC >= 1.20.2`</sup>
@@ -59,7 +54,6 @@ When this option is turned on, the comparator ignores state updates from below.
 Means that opening the trap gate will not destroy the comparator
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet ComparatorIgnoresStateUpdatesFromBelow true`
 * Categories: `REMS` , `Feature`
 
 ## PearlPosVelocity
@@ -67,14 +61,12 @@ When the ender pearl loading (PearlTickets) is turned on, the pearl will only sh
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet pearlPosVelocity true`
 * Categories: `REMS` , `Survival`
 
 ## Endstonefram
 You can build Endstonefram like 1.16,it can make it work
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet endstonefram true`
 * Categories: `REMS` , `Experimental`
 
 ## ProjectileRaycastLength
@@ -83,7 +75,6 @@ This reduces lag for fast travel. In 1.12 this value is 200.
 
 * Default Value: `0`
 * Optional Parameters: `0`, `200`
-* Open Method: `/carpet ProjectileRaycastLength 200`
 * Categories: `REMS` , `Survival`
 
 **Ported from：**[EpsilonSMP](https://github.com/EpsilonSMP/Epsilon-Carpet)
@@ -101,7 +92,6 @@ Below are the locations of the Hell Gates, all positive or negative.
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet PortalPearlWarp true`
 * Categories: `REMS` , `Feature`
 
 ## ChestMinecartChunkLoader
@@ -109,7 +99,6 @@ A chest minecart can force load a 1x1 chunk for 2 seconds. This is enabled when 
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet chestMinecartChunkLoader true`
 * Categories: `REMS` , `Feature`
 
 ## EndGatewayChunkLoader<sup>`MC < 1.21`</sup>
@@ -117,7 +106,6 @@ When an entity passes through the End gateway, the target chunk will be loaded f
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet endGatewayChunkLoader true`
 * Categories: `REMS` , `Survival`
 
 ## ScheduledRandomTickPlants
@@ -128,7 +116,6 @@ Cactus, bamboo, chorus flower, sugar cane, kelp, twisting vines, weeping vines
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet scheduledRandomTickPlants true`
 * Categories: `REMS` , `Feature`,`Survival`
 
 **Ported from：**[OhMyVanillaMinecraft](https://github.com/hit-mc/OhMyVanillaMinecraft)
@@ -139,7 +126,6 @@ Minecraft will stop updating entities after 300 ticks of no players in the serve
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet keepWorldTickUpdate true`
 * Categories: `REMS` , `Feature`
 
 ## DisableBatCanSpawn
@@ -147,7 +133,6 @@ Stop bats from spawning naturally
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet disableBatCanSpawn true`
 * Categories: `REMS` , `Feature`
 
 ## CactusWrenchSound
@@ -155,7 +140,6 @@ Play 'BLOCK_DISPENSER_LAUNCH' sound effect when using the Cactus Wrench.
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet cactusWrenchSound true`
 * Categories: `REMS` , `Survival` ,`Creative`
 
 ## DisablePortalUpdate
@@ -163,7 +147,6 @@ Nether portal blocks do not react to block updates.
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet disablePortalUpdate true`
 * Categories: `REMS` , `Survival` ,`Experimental`
 
 ## StringDupeReintroduced<sup>`MC > 1.21.2`</sup>
@@ -171,7 +154,6 @@ Reintroduced the line-stirring feature, and you can continue to use the line-sti
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet stringDupeReintroduced true`
 * Categories: `REMS` , `Survival` ,`Experimental`
 
 ## SharedVillagerDiscounts
@@ -179,7 +161,6 @@ The discount obtained by players who cure zombie villagers into villagers will b
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet sharedVillagerDiscounts true`
 * Categories: `REMS` , `Survival`,`Feature`
 
 ## SignCommand
@@ -188,14 +169,12 @@ The player right-clicks the sign to execute the command on the sign.The sign sta
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet SignCommand true`
 * Categories: `REMS` , `Survival`
 
 ## SignAllowedCommands
 Set a list of allowed commands on the sign, separated by commas, for example: say, tick, player
 * Default Value: `false`
 * Optional Parameters:`false`, `say`, `player,tick`, `say,player,tick`
-* Open Method: `/carpet SignCommand XXX`
 * Categories: `REMS` , `Survival`
 
 ## Enderpearlloadchunk
@@ -203,7 +182,6 @@ This ender pearl loading is ported from 1.21.2. Very useful.
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet enderpearlloadchunk true`
 * Categories: `REMS` , `FEATURE`
   
 **Ported from：**[PearlChunkLoading](https://github.com/Crystal0404/PearlChunkLoading)
@@ -213,7 +191,6 @@ This rule controls how many gts the pearl will be destroyed after it exceeds 20m
 
 * Default Value: `40`
 * Optional Parameters: `40`, `0`
-* Open Method: `/carpet pearltime true`
 * Categories: `REMS` , `FEATURE`
 
 
@@ -222,7 +199,6 @@ Reintroduced the logic of swapping between inventory slots in 1.16.5.
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet itemShadowing true`
 * Categories: `REMS` , `Experimental`
 
 **Ported from：**[CrystalCarpetAddition](https://github.com/Crystal0404/CrystalCarpetAddition)
@@ -232,56 +208,48 @@ Allows saving and replacing of block entities, used for creating CCE and IAE.
 
 * Default Value: `false`
 * Optional Parameters:  `true`, `false`
-* Open Method: `/carpet blockentityreplacement true`
 * Categories: `REMS` , `ExperimentalL`
 
 ## Reloadrefreshirongolem
 You can build a heavy iron spawner in the end like in 1.14, this rule will make it work
 * Default Value:  `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet reloadrefreshirongolem true`
 * Categories: `REMS` , `survival`
 
 ## Pre21ThrowableEntityMovement<sup>`MC >= 1.21.2`</sup>
 Restored the order of projectile movement from 1.21.2, you can use EnderPearl Cannon like in 1.21.2-
 * Default Value: `false`
 * Optional Parameters:`true`, `false`
-* Open Method: `/carpet pre21ThrowableEntityMovement true`
 * Categories: `REMS` , `Feature`
 
 ## Fixedpearlloading<sup>`MC >= 1.21.2`</sup>
 Fixed an issue where ender pearls would unload at high speeds due to being unable to load the current chunk.
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet fixedpearlloading true`
 * Categories: `REMS` , `bugfix`
 
 ## WanderingTraderNoDisappear
 Wandering Trader will no disappear customName is Load
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet wanderingTraderNoDisappear true`
 * Categories: `REMS` , `feature`
 
 ## Pearlnotloadingchunk
 Enderpearl no load any chunk
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet pearlnotloadingchunk true`
 * Categories: `REMS` , `feature`
 
 ## DurableItemShadow
 The item Shadow do not disappear after restarting.
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet durableItemShadow true`
 * Categories: `REMS` , `feature`
 
 ## IntroduceHighVersionThrowableEntityMovement<sup>`MC < 1.21.2`</sup>
 Introducing projectile motion logic from version 1.21.2+.
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet introduceHighVersionThrowableEntityMovement true`
 * Categories: `REMS` , `feature`
 
 ## NoSensationPearlLoad
@@ -289,7 +257,6 @@ When the speed is greater than 300 and it is the first time, a small number of r
 
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet noSensationPearlLoad true`
 * Categories: `REMS` , `feature`
 
 ## DisableAIEntitities
@@ -297,7 +264,6 @@ Set a list of entities to remove from any AI, separated by commas, for example: 
 For details on disabling AI categories, please refer to DisableAiGoals.
 * Default Value: `false`
 * Optional Parameters: `false`, `zombie`, `creeper`, `zombie,skeleton`
-* Open Method: `/carpet disableAIEntitities XXX`
 * Categories: `REMS` , `feature`
 
 ## DisableAiGoals
@@ -305,35 +271,30 @@ Select the AI function you want to delete, such as: move, attack, look.
 Using the nameplate to name the above function allows you to delete a specific AI instance of an individual entity.
 * Default Value:`false`
 * Optional Parameters: `false`, `move`, `attack`, `move,attack,look`, `breed,tempt,pickup,work`, `all`
-* Open Method: `/carpet disableAiGoals XXX`
 * Categories: `REMS` , `feature`
 
 ## Stridergodie
 Strider cannot be generated in Hell difficulty above level 170.
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet stridergodie true`
 * Categories: `REMS` , `Survival`
 
 ## FlushFakePlayerNetworkQueue
 Every minute, the backlog of outbound packets in the underlying EmbeddedChannel of the fake player is cleared to free up heap memory.
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet flushFakePlayerNetworkQueue true`
 * Categories: `REMS` , `Bugfix`
 
 ## DispenserSpearCharge<sup>`MC >= 1.21.11`</sup>
 Dispensers can use spears to attack entities in front of them.
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet dispenserSpearCharge true`
 * Categories: `REMS` , `Experimental`
 
 ## AllowTripwirePlatformDeletion
 Players can use the tripwire's abnormal state to interrupt the spawn of the End Obsidian spawn platform, thereby deleting the platform.
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet allowTripwirePlatformDeletion true`
 * Categories: `REMS` , `feature`
 
 ## CommandBlockWhitelist
@@ -347,28 +308,24 @@ The command block whitelist can be enabled or disabled through the backend, prev
 Reintroduce the dolphin portal item duplication bug that was fixed in 20w45a.
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet reintroduceDolphinPortalItemDupe true`
 * Categories: `REMS` , `Feature`
 
 ## FragileBlocks
 Set a list of blocks that can be broken quickly, separated by commas, e.g.: obsidian,vault.
 * Default Value: `false`
 * Optional Parameters: `false`, `obsidian`, `obsidian,vault`...
-* Open Method: `/carpet fragileBlocks XXX`
 * Categories: `REMS` , `Feature`
 
 ## FixMiningFatigue
 Fixes Mining Fatigue III/IV multipliers: III 0.0027→0.027, IV 0.00081→0.0081.
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet fixMiningFatigue true`
 * Categories: `REMS` , `bugfix`
 
 ## RevertZombieFeatures
 Reverts two Mojang zombie changes: reinforcements always spawn regular zombies (24w33a), pigmen never spawn with golden spears (1.21.11).
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* Open Method: `/carpet revertZombieFeatures true`
 * Categories: `REMS` , `Feature`
 
 ---
