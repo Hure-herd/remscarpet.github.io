@@ -293,16 +293,18 @@ When the speed is greater than 300 and it is the first time, a small number of r
 * Categories: `REMS` , `feature`
 
 ## DisableAIEntitities
-Set a list of entities to remove from any AI, separated by commas, for example: zombie,piglin
+Set a list of entities to remove from any AI, separated by commas, for example: zombie,piglin  
+For details on disabling AI categories, please refer to DisableAiGoals.
 * Default Value: `false`
 * Optional Parameters: `false`, `zombie`, `creeper`, `zombie,skeleton`
 * Open Method: `/carpet disableAIEntitities XXX`
 * Categories: `REMS` , `feature`
 
 ## DisableAiGoals
-Select the AI function you want to delete, such as: move, attack, look.
+Select the AI function you want to delete, such as: move, attack, look.  
+Using the nameplate to name the above function allows you to delete a specific AI instance of an individual entity.
 * Default Value:`false`
-* Optional Parameters: `false`, `move`, `attack`, `move,attack,shoot`, `all`
+* Optional Parameters: `false`, `move`, `attack`, `move,attack,look`, `breed,tempt,pickup,work`, `all`
 * Open Method: `/carpet disableAiGoals XXX`
 * Categories: `REMS` , `feature`
 
@@ -340,4 +342,33 @@ The command block whitelist can be enabled or disabled through the backend, prev
 * Close Method: `/cbwhitelist close`
 * How to add to the whitelist: `/cbwhitelist add XXX`
 * How to remove from the whitelist: `/cbwhitelist remove XXX`
+
+## ReintroduceDolphinPortalItemDupe
+Reintroduce the dolphin portal item duplication bug that was fixed in 20w45a.
+* Default Value: `false`
+* Optional Parameters: `true`, `false`
+* Open Method: `/carpet reintroduceDolphinPortalItemDupe true`
+* Categories: `REMS` , `Feature`
+
+## FragileBlocks
+Set a list of blocks that can be broken quickly, separated by commas, e.g.: obsidian,vault.
+* Default Value: `false`
+* Optional Parameters: `false`, `obsidian`, `obsidian,vault`...
+* Open Method: `/carpet fragileBlocks XXX`
+* Categories: `REMS` , `Feature`
+
+## FixMiningFatigue
+Fixes Mining Fatigue III/IV multipliers: III 0.0027→0.027, IV 0.00081→0.0081.
+* Default Value: `false`
+* Optional Parameters: `true`, `false`
+* Open Method: `/carpet fixMiningFatigue true`
+* Categories: `REMS` , `bugfix`
+
+## RevertZombieFeatures
+Reverts two Mojang zombie changes: reinforcements always spawn regular zombies (24w33a), pigmen never spawn with golden spears (1.21.11).
+* Default Value: `false`
+* Optional Parameters: `true`, `false`
+* Open Method: `/carpet revertZombieFeatures true`
+* Categories: `REMS` , `Feature`
+
 ---

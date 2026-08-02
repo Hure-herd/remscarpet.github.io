@@ -271,16 +271,18 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 * 分类: `REMS` , `feature`
 
 ## 禁用AI的实体类型(DisableAIEntitities)
-设置移除任意AI的实体列表，使用逗号分隔，例如: zombie,piglin
+设置移除任意AI的实体列表，使用逗号分隔，例如: zombie,piglin  
+禁用AI的类别类别详细请看DisableAiGoals
 * 默认值: `false`
 * 可选参数: `false`, `zombie`, `creeper`, `zombie,skeleton`
 * 开启方法: `/carpet disableAIEntitities XXX`
 * 分类: `REMS` , `feature`
 
 ## 禁用AI的类别(DisableAiGoals)
-选择要删除的 AI 功能 如: move, attack, look
+选择要删除的 AI 功能 如: move, attack, look  
+使用命名牌命名为上方功能后可以删除单独实体的某个AI
 * 默认值: `false`
-* 可选参数: `false`, `move`, `attack`, `move,attack,shoot`, `all`
+* 可选参数: `false`, `move`, `attack`, `move,attack,look`, `breed,tempt,pickup,work`, `all`
 * 开启方法: `/carpet disableAiGoals XXX`
 * 分类: `REMS` , `feature`
 
@@ -318,4 +320,33 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 * 关闭方法: `/cbwhitelist close`
 * 添加白名单方法: `/cbwhitelist add XXX`
 * 删除白名单方法: `/cbwhitelist remove XXX`
+
+## 重新引入海豚过门物品复制(ReintroduceDolphinPortalItemDupe)
+重新引入20w45a修复的海豚携带物品穿越传送门时的物品复制。
+* 默认值: `false`
+* 可选参数: `true`, `false`
+* 开启方法: `/carpet reintroduceDolphinPortalItemDupe true`
+* 分类: `REMS` , `Feature`
+
+## 易碎方块(FragileBlocks)
+"设置可以被快速破坏的方块列表，使用逗号分隔，例如: obsidian,vault"。
+* 默认值: `false`
+* 可选参数: `false`, `obsidian`, `obsidian,vault`...
+* 开启方法: `/carpet fragileBlocks XXX`
+* 分类: `REMS` , `Feature`
+
+## 修复挖掘疲劳倍率(FixMiningFatigue)
+修复挖掘疲劳 III/IV 级的挖掘速度倍率：III 0.0027→0.027, IV 0.00081→0.0081。
+* 默认值: `false`
+* 可选参数: `true`, `false`
+* 开启方法: `/carpet fixMiningFatigue true`
+* 分类: `REMS` , `bugfix`
+
+## 回退僵尸特性(RevertZombieFeatures)
+回退Mojang的两个僵尸更改：增援始终为普通僵尸（24w33a前行为），猪人不再生成金矛（1.21.11前行为）。
+* 默认值: `false`
+* 可选参数: `true`, `false`
+* 开启方法: `/carpet revertZombieFeatures true`
+* 分类: `REMS` , `Feature`
+
 ---
