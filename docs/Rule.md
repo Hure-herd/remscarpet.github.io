@@ -332,7 +332,7 @@ Reverts two Mojang zombie changes: reinforcements always spawn regular zombies (
 In creative mode, don't pick up items if inventory has no empty slot and can't stack with existing items.
 * Default Value: `false`
 * Optional Parameters: `true`, `false`
-* 分类: `REMS` , `Feature` , `Survival`
+* Categories: `REMS` , `Feature` , `Survival`
 
 ## NoAnimalGenerationInNewChunks
 Prevents animals from spawning naturally during chunk generation.
