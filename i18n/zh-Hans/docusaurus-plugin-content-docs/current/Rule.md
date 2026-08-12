@@ -58,12 +58,6 @@ sidebar_position: 1
 * 分类: `REMS` , `Survival`
 > 如果不想使用地狱门加载链的话，此规则可作为替代方案。
 
-## 末影真实位置(PearlPosVelocity)
-在开启末影珍珠加载(PearlTickets)的时候，珍珠只会显示第一gt的位置，查看不到珍珠的真实位置和速度，开启这个后，会在公屏显示出来。
-* 默认值: `false`
-* 可选参数: `true`, `false`
-* 分类: `REMS` , `Survival`
-
 ## 炽足兽去死(Stridergodie)
 让炽足兽在地狱170高以上无法生成
 * 默认值: `false`
@@ -216,6 +210,14 @@ sidebar_position: 1
 
 这个规则允许末影珍珠实体选择性地加载即将通过的区块，这样珍珠炮打出的珍珠就不会因为进入未加载区块而丢失。在1.14+中可以替代地狱门加载链使用。   
 该mod相比于@gnembon/carpet-extra mod的enderPearlChunkLoading功能有显著的性能提升。  
+* 默认值: `false`
+* 可选参数: `true`, `false`
+* 分类: `REMS` , `Survival`
+
+## 末影真实位置(PearlPosVelocity)<sup>`MC < 1.21.2, REMS ≤ V1.3.11`</sup>
+> **已在 V1.3.12 移除。** 此规则仅存在于 REMS-Carpet-Addition **V1.3.11 及更早版本**，且仅限 Minecraft < 1.21.2。已被 `Enderpearlloadchunk` + `Pearltime` + `Fixedpearlloading`取代。
+
+在开启末影珍珠加载(PearlTickets)的时候，珍珠只会显示第一gt的位置，查看不到珍珠的真实位置和速度，开启这个后，会在公屏显示出来。
 * 默认值: `false`
 * 可选参数: `true`, `false`
 * 分类: `REMS` , `Survival`

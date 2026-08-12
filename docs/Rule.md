@@ -62,15 +62,6 @@ If enabled, when this piston/sticky piston head generates a piston head push/pul
 
 >This rule can be used as an alternative if you do not want to use the Nether portal Load.
 
-## PearlPosVelocity
-> **Removed in V1.3.12.** This rule only exists in REMS-Carpet-Addition **V1.3.11 and earlier**, and only for Minecraft < 1.21.2. It has been replaced by `Enderpearlloadchunk` + `Pearltime` + `Fixedpearlloading` (the 1.21.2+ pearl chunk loading system).
-
-When the ender pearl loading (PearlTickets) is turned on, the pearl will only show the position of the first gt, and the real position and speed of the pearl cannot be checked. After turning this on, it will be displayed on the public screen.
-
-* Default Value: `false`
-* Optional Parameters: `true`, `false`
-* Categories: `REMS` , `Survival`
-
 ## Stridergodie
 Strider cannot be generated in Hell difficulty above level 170.
 * Default Value: `false`
@@ -241,6 +232,15 @@ This mod has a significant performance improvement over the enderPearlChunkLoadi
 
 **Ported from：**
 SunnySlopes's [PearlTickets](https://github.com/SunnySlopes/PearlTickets)
+
+## PearlPosVelocity
+> **Removed in V1.3.12.** This rule only exists in REMS-Carpet-Addition **V1.3.11 and earlier**, and only for Minecraft < 1.21.2. It has been replaced by `Enderpearlloadchunk` + `Pearltime` + `Fixedpearlloading` (the 1.21.2+ pearl chunk loading system).
+
+When the ender pearl loading (PearlTickets) is turned on, the pearl will only show the position of the first gt, and the real position and speed of the pearl cannot be checked. After turning this on, it will be displayed on the public screen.
+
+* Default Value: `false`
+* Optional Parameters: `true`, `false`
+* Categories: `REMS` , `Survival`
 
 ## Pearltime<sup>`MC < 1.21.2`</sup>
 This rule controls how many gts the pearl will be destroyed after it exceeds 20m/gt.
