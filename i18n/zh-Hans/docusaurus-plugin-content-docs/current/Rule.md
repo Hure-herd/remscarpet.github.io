@@ -362,6 +362,24 @@ SunnySlopes 的[PearlTickets](https://github.com/SunnySlopes/PearlTickets)
 * 可选参数: `ops`, `true`, `flase`
 * 分类: `REMS` , `Creative`, `Command`
 
+## 全局声音抑制(GlobalSoundSuppression)
+选择一个或多个受支持的声音抑制频率，多个值使用逗号分隔；false为关闭
+* 默认值: `false`
+* 可选参数: `false`, `5`, `9`, `10`, `11`, `5,9,10,11`
+* 分类: `REMS` , `Feature`,`Creative`
+
+## 创造模式复制容器内容(CreativeCtrlPickBlockContents)
+允许在创造模式下使用 Ctrl+鼠标中键复制堆肥桶或炼药锅，并保留其中的内容物和液位。
+* 默认值: `false`
+* 可选参数: `true`, `flase`
+* 分类: `REMS` , `Feature`,`Creative`
+  
+## 关闭末地折跃门冷却(DisableEndGatewayCooldown)
+关闭末地折跃门的传送冷却，使实体可以连续使用折跃门。
+* 默认值: `false`
+* 可选参数: `true`, `flase`
+* 分类: `REMS` , `Feature`,`Survival`
+
 ## 命令方块白名单(CommandBlockWhitelist)
 通过后台可以开启与关闭命令方块白名单，禁止某些存在拥有op的人乱使用命令方块。
 * 开启方法: `/cbwhitelist open`

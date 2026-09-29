@@ -384,6 +384,24 @@ Enable the /noEndGatewayTicket command to cancel the loading of a gate at a spec
 * Optional Parameters: `ops`, `true`, `flase`
 * Categories: `REMS` , `Creative`, `Command`
 
+## GlobalSoundSuppression
+Selects one or more supported sound suppression frequencies, separated by commas. Use false to disable the rule.
+* Default Value: `false`
+* Optional Parameters: `false`, `5`, `9`, `10`, `11`, `5,9,10,11`
+* Categories: `REMS` , `Feature`,`Creative`
+
+## CreativeCtrlPickBlockContents
+Allows Ctrl+middle-click in Creative mode to copy a composter or cauldron together with its contents and level.
+* Default Value: `false`
+* Optional Parameters: `true`, `flase`
+* Categories: `REMS` , `Feature`,`Creative`
+
+## DisableEndGatewayCooldown
+Disables the teleport cooldown of end gateways, allowing entities to use them continuously
+* Default Value: `false`
+* Optional Parameters: `true`, `flase`
+* Categories: `REMS` , `Feature`,`Survival`
+
 ## CommandBlockWhitelist
 The command block whitelist can be enabled or disabled through the backend, preventing certain people with operation privileges from misusing command blocks.
 * Open Method: `/cbwhitelist open`
