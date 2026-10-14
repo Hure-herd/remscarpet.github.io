@@ -190,6 +190,12 @@ Prevents animals from spawning naturally during chunk generation.
 * Optional Parameters: `true`, `false`
 * Categories: `REMS` , `Feature`
 
+## FixSpearHitDetection
+Fixes spear attacks missing moving targets, starting cooldown without damage, and failing to apply enchanted knockback to players
+* Default Value:`false`
+* Optional Parameters: `true`, `false`
+* Categories: `REMS`, `Bugfix`
+
 ## FixMiningFatigue
 Fixes Mining Fatigue III/IV multipliers: III 0.0027→0.027, IV 0.00081→0.0081.
 * Default Value: `false`

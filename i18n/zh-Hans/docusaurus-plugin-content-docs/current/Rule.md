@@ -175,6 +175,12 @@ sidebar_position: 1
 * 可选参数: `true`, `false`
 * 分类: `REMS` , `Feature`
 
+## 修复长矛命中判定 (FixSpearHitDetection)
+修复长矛无法命中移动目标、未造成伤害却进入冷却，以及击退附魔对玩家不生效的问题。
+* 默认值：`false`
+* 可选参数：`true`, `false`
+* 分类：`REMS`, `Bugfix`
+
 ## 修复挖掘疲劳倍率(FixMiningFatigue)
 修复挖掘疲劳 III/IV 级的挖掘速度倍率：III 0.0027→0.027, IV 0.00081→0.0081。
 * 默认值: `false`
